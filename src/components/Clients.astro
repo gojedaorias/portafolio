@@ -1,0 +1,23 @@
+---
+import CardAlemana from "./CardClients/CardAlemana.astro";
+import CardDale from "./CardClients/CardDale.astro";
+import CardMovistar from "./CardClients/CardMovistar.astro";
+import CardNTT from "./CardClients/CardNTT.astro";
+import CardWom from "./CardClients/CardWom.astro";
+import Container from "./Container.astro";
+import Phrase from "./Phrase.astro";
+---
+
+<Container>
+  <Phrase
+    title="Desde la experiencia, hasta el desarrollo."
+    description="Participando en grandes marcas."
+  />
+  <div class="self-left grid grid-cols-5 gap-4">
+    <CardMovistar />
+    <CardWom />
+    <CardNTT />
+    <CardDale />
+    <CardAlemana />
+  </div>
+</Container>

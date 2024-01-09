@@ -1,0 +1,33 @@
+---
+import Container from "./Container.astro";
+import Phrase from "./Phrase.astro";
+import CardHTML from "./CardSkills/CardHTML.astro";
+import CardCSS from "./CardSkills/CardCSS.astro";
+import CardJS from "./CardSkills/CardJS.astro";
+import CardTS from "./CardSkills/CardTS.astro";
+import CardReact from "./CardSkills/CardReact.astro";
+import CardNext from "./CardSkills/CardNext.astro";
+import CardAstro from "./CardSkills/CardAstro.astro";
+import CardRedux from "./CardSkills/CardRedux.astro";
+import CardMaterial from "./CardSkills/CardMaterial.astro";
+import CardJest from "./CardSkills/CardJest.astro";
+---
+
+<Container>
+  <Phrase
+    title="La especialización, hace al maestro."
+    description="Por eso me muevo en tecnologías front."
+  />
+  <div class="self-left grid grid-cols-5 gap-4">
+    <CardHTML />
+    <CardCSS />
+    <CardJS />
+    <CardTS />
+    <CardReact />
+    <CardNext />
+    <CardAstro />
+    <CardRedux />
+    <CardMaterial />
+    <CardJest />
+  </div>
+</Container>
